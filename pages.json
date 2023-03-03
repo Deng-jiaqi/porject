@@ -1,0 +1,361 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "门店选择",
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/tar/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/tar/voucher",
+			"style": {
+				"navigationBarTitleText": "充值卡券",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white",
+				"disableScroll": true
+			}
+
+		}, {
+			"path": "pages/tar/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#fff",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/tar/member",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/creatMT",
+			"style": {
+				"navigationBarTitleText": "美团兑换券",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+
+			}
+
+		}, {
+			"path": "pages/order/creatOrder",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/problem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/joinUs",
+			"style": {
+				"navigationBarTitleText": "招商加盟",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/share/share",
+			"style": {
+				"navigationBarTitleText": "分享奖励",
+				"enablePullDownRefresh": false,
+				// "navigationStyle": "custom"
+				"navigationBarBackgroundColor": "#FB5639",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/share/poster",
+			"style": {
+				"navigationBarTitleText": "邀约海报",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/share/integral",
+			"style": {
+				"navigationBarTitleText": "积分使用记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/share/shareList",
+			"style": {
+				"navigationBarTitleText": "推荐会员列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/clearCenter/order",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false,
+				"allowsBounceVertical": "NO"
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/balance",
+			"style": {
+				"navigationBarTitleText": "加盟商余额",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/withdrawal",
+			"style": {
+				"navigationBarTitleText": "待提现金额",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/bankList",
+			"style": {
+				"navigationBarTitleText": "我的银行卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/sendBank",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/sendWithdrawal",
+			"style": {
+				"navigationBarTitleText": "申请提现",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/StoreManagement/Room",
+			"style": {
+				"navigationBarTitleText": "房间管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/oder_details",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/Revenue_data",
+			"style": {
+				"navigationBarTitleText": "营收数据",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/census_data",
+			"style": {
+				"navigationBarTitleText": "统计数据",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/tar/Recharge_success",
+			"style": {
+				"navigationBarTitleText": "充值成功",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/success_withdrawal",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/Withdrawal_record",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/Total_income",
+			"style": {
+				"navigationBarTitleText": "总收益金额",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/Cleaning_fee",
+			"style": {
+				"navigationBarTitleText": "总计扣除保洁费",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/member/shopCenter/Platform_management_fee",
+			"style": {
+				"navigationBarTitleText": "扣除平台管理费",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/tar/share_order",
+			"style": {
+				"navigationBarTitleText": "返回首页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/order/order_voucher",
+			"style": {
+				"navigationBarTitleText": "优惠券列表",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/order/order_coupon",
+			"style": {
+				"navigationBarTitleText": "美团兑换卷",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#49A485",
+				"navigationBarTextStyle": "white"
+			}
+
+		}, {
+			"path": "pages/tar/order_success",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shop/Shopping/Shopping",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/agreement/agreement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+		"root": "orderPackages",
+		"pages": [{
+			"path": "detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "茶舍",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"color": "#969696",
+		"selectedColor": "#0BAA88",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tar/home",
+				"iconPath": "static/tab1.png",
+				"selectedIconPath": "static/tab1ed.png",
+				"text": "包间预订"
+			}, {
+				"pagePath": "pages/shop/Shopping/Shopping",
+				"iconPath": "static/shops.png",
+				"selectedIconPath": "static/shop.png",
+				"text": "商城"
+			},
+			{
+				"pagePath": "pages/tar/order",
+				"iconPath": "static/tab3.png",
+				"selectedIconPath": "static/tab3ed.png",
+				"text": "我的订单"
+			},
+			{
+				"pagePath": "pages/tar/member",
+				"iconPath": "static/tab4.png",
+				"selectedIconPath": "static/tab4ed.png",
+				"text": "个人中心"
+			}
+
+		]
+	},
+	"uniIdRouter": {},
+	"plugins": {
+		"chooseLocation": {
+			"version": "1.0.10",
+			"provider": "wx76a9a06e5b4e693e" // 地图选点的APPID
+		}
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序定位"
+		}
+	}
+}

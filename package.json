@@ -1,0 +1,22 @@
+{
+	"id": "xing-virtual-list",
+	"name": "简单易用的高性能不定高项虚拟列表",
+	"version": "1.1",
+	"description": "简单易用，不定高，虚拟列表，scroll-view 高度可以传入任意 css",
+	"keywords": [
+		"虚拟列表",
+		"简单易用",
+		"高性能",
+		"virtual",
+		"list"
+	],
+	"dcloudext": {
+		"category": [
+			"前端组件",
+			"通用组件"
+		]
+	},
+	"dependencies": {
+		"vue-virtual-scroll-list": "^2.3.4"
+	}
+}
